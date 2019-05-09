@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Paginas Amarillas</string>
+    <string name="title_home">Que busca</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_buscar">Que busca</string>
+    <string name="title_cerca_de_mi">Cerca de mi</string>
+    <string name="title_ajustes">Ajustes</string>
+    <string name="title_ra">RA</string>
+    <string name="icon_button_label_enabled"></string>
+    <string name="main_txt_busqueda">Busqueda</string>
+    <string name="taxi">Taxi</string>
+    <string name="todo">TODO</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="comida_china">Comida china</string>>
+</resources>

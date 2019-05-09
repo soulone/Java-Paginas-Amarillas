@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_margin="8dp"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:layout_marginBottom="@dimen/mtrl_card_spacing"
+            >
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                tools:text="SANDWICH QBANO" />
+
+            <TextView
+                style=""
+                android:id="@+id/company_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_name"
+                android:layout_alignParentLeft="true"
+                tools:text="CI 81 13-05 L-405 C.C" />
+
+            <TextView
+                android:id="@+id/company_street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_adress"
+                android:layout_alignParentLeft="true"
+                tools:text="Atlantis Plaza" />
+
+            <TextView
+                android:id="@+id/company_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_street"
+                android:layout_alignParentLeft="true"
+                tools:text="(1)6083932" />
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:id="@+id/company_category"
+                app:rippleColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_number"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                tools:text="Restaurante" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:id="@+id/company_brand"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/ic_001_ramen" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_sucursales"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/company_brand"
+                    android:text="ver sucursales" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>

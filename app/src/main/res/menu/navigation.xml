@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_outline_search_24px"
+        android:title="@string/title_buscar" />
+
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/ic_outline_location_on_24px"
+        android:title="@string/title_cerca_de_mi" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_outline_settings_24px"
+        android:title="@string/title_ajustes" />
+    <item
+        android:id="@+id/RA"
+        android:icon="@drawable/ic_outline_center_focus_strong_24px"
+        android:title="@string/title_ra" />
+
+</menu>
